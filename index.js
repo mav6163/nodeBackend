@@ -10,5 +10,5 @@ app.get('/facebook', (req, res) => {
     res.send("Fuck you Bitch")
 })
 app.listen(process.env.PORT, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Example app listening on port ${process.env.PORT}`)
 })
